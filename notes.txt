@@ -35,4 +35,4 @@ add local repo online
 commit changes:
    - git add . (if files have been added)
    - git commit -am "comment" (you can leave the a out if you ran add)
-
+   - git push -u origin master (push changes to GitHub)
