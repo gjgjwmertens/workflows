@@ -18,4 +18,6 @@ git:
    - git commit -m "comment"
    - git status
    - git log
-   - git checkout 9721dea1b4dfcc7b035aabb189b404ab6d424b21
+   - git checkout 9721dea1b4dfcc7b035aabb189b404ab6d424b21 (go back in time)
+   - git checkout master (return to current time)
+   - git checkout -- notes.txt (ignore changes since last commit)
