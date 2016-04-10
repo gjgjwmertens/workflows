@@ -20,6 +20,7 @@ git:
    - git init
    - git add .
    - git commit -am "comment"
+   - git commit -m "comment"
    - git status
    - git log
    - git checkout 9721dea1b4dfcc7b035aabb189b404ab6d424b21 (go back in time)
@@ -30,3 +31,8 @@ after creating a new repo online in GitHub
 add local repo online
    - git remote add origin https://github.com/gjgjwmertens/workflows.git
    - git push -u origin master
+
+commit changes:
+   - git add . (if files have been added)
+   - git commit -am "comment" (you can leave the a out if you ran add)
+
