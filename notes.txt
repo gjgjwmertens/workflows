@@ -9,3 +9,12 @@ added:
    - npm install -g browserify
    - gem update
    - gem install compass
+
+git:
+   - git config --global user.email "G.J.G.J.W.Mertens@uva.nl"
+   - git config --global user.name "gjgjwmertens"
+   - git init
+   - git add .
+   - git commit -m "comment"
+   - git status
+   - git log
