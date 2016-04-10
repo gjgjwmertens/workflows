@@ -32,6 +32,9 @@ add local repo online
    - git remote add origin https://github.com/gjgjwmertens/workflows.git
    - git push -u origin master
 
+store credentials:
+   -git config credential.helper store
+
 commit changes:
    - git add . (if files have been added)
    - git commit -am "comment" (you can leave the a out if you ran add)
