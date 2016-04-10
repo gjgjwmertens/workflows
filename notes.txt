@@ -33,7 +33,7 @@ add local repo online
    - git push -u origin master
 
 store credentials:
-   -git config credential.helper store
+   -git config --global credential.helper store (will ask credentials one more time then store them)
 
 commit changes:
    - git add . (if files have been added)
