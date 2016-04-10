@@ -10,14 +10,23 @@ added:
    - gem update
    - gem install compass
 
+   - npm install --save-dev (or --save to add it to the dependencies)
+      - gulp
+      - gulp-util
+
 git:
    - git config --global user.email "G.J.G.J.W.Mertens@uva.nl"
    - git config --global user.name "gjgjwmertens"
    - git init
    - git add .
-   - git commit -m "comment"
+   - git commit -am "comment"
    - git status
    - git log
    - git checkout 9721dea1b4dfcc7b035aabb189b404ab6d424b21 (go back in time)
    - git checkout master (return to current time)
    - git checkout -- notes.txt (ignore changes since last commit)
+
+after creating a new repo online in GitHub
+add local repo online
+   - git remote add origin https://github.com/gjgjwmertens/workflows.git
+   - git push -u origin master

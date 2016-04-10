@@ -4,8 +4,12 @@
   "description": "Web project workflows",
   "repository": {
     "type": "git",
-    "url": "?.git"
+    "url": "https://github.com/gjgjwmertens/workflows.git"
   },
   "author": "G.J. Mertens",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-util": "^3.0.7"
+  }
 }
