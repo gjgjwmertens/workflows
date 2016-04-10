@@ -18,3 +18,4 @@ git:
    - git commit -m "comment"
    - git status
    - git log
+   - git checkout 9721dea1b4dfcc7b035aabb189b404ab6d424b21
