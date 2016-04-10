@@ -1,0 +1,11 @@
+install dependencies:
+already present:
+   - node
+      - npm
+   - ruby
+      - sass
+added:
+   - npm install -g gulp
+   - npm install -g browserify
+   - gem update
+   - gem install compass

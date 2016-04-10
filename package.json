@@ -1,0 +1,11 @@
+{
+  "name": "workflows",
+  "version": "1.0.0",
+  "description": "Web project workflows",
+  "repository": {
+    "type": "git",
+    "url": "?.git"
+  },
+  "author": "G.J. Mertens",
+  "license": "MIT"
+}
