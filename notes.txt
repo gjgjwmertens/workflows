@@ -13,6 +13,7 @@ added:
    - npm install --save-dev (or --save to add it to the dependencies)
       - gulp
       - gulp-util
+      - gulp-coffee
 
 git:
    - git config --global user.email "G.J.G.J.W.Mertens@uva.nl"
@@ -30,7 +31,7 @@ git:
 after creating a new repo online in GitHub
 add local repo online
    - git remote add origin https://github.com/gjgjwmertens/workflows.git
-   - git push -u origin master
+   - git push [-u] origin master
 
 store credentials:
    -git config --global credential.helper store (will ask credentials one more time then store them)
