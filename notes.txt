@@ -14,6 +14,8 @@ added:
       - gulp
       - gulp-util
       - gulp-coffee
+      - gulp-concat
+      - etc see package.json
 
 git:
    - git config --global user.email "G.J.G.J.W.Mertens@uva.nl"
@@ -31,7 +33,7 @@ git:
 after creating a new repo online in GitHub
 add local repo online
    - git remote add origin https://github.com/gjgjwmertens/workflows.git
-   - git push [-u] origin master
+   - git push -u origin master
 
 store credentials:
    -git config --global credential.helper store (will ask credentials one more time then store them)
@@ -39,4 +41,4 @@ store credentials:
 commit changes:
    - git add . (if files have been added)
    - git commit -am "comment" (you can leave the a out if you ran add)
-   - git push -u origin master (push changes to GitHub)
+   - git push [-u] origin master (push changes to GitHub)
