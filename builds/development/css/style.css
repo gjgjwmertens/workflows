@@ -1,5 +1,5 @@
 @import "http://fonts.googleapis.com/css?family=Patua+One|Inika";
-/* line 17, ../../../.rvm/gems/ruby-2.0.0-p195/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 5, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -21,46 +21,46 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../../.rvm/gems/ruby-2.0.0-p195/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../../../.rvm/gems/ruby-2.0.0-p195/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../../.rvm/gems/ruby-2.0.0-p195/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../../.rvm/gems/ruby-2.0.0-p195/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../../.rvm/gems/ruby-2.0.0-p195/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../../.rvm/gems/ruby-2.0.0-p195/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 103, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../../.rvm/gems/ruby-2.0.0-p195/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 32, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, ../../../.rvm/gems/ruby-2.0.0-p195/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+/* line 116, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
 }
 
@@ -73,7 +73,7 @@ body {
 
 /* line 9, ../components/sass/_base.scss */
 #content {
-  color: #cc8e94;
+  color: #CC8E94;
   font-size: 2em;
 }
 
@@ -107,14 +107,14 @@ h1 {
 /* line 36, ../components/sass/_base.scss */
 h2 {
   font-size: 1.5em;
-  color: #3e2b3d;
+  color: #3E2B3D;
 }
 
 /* line 41, ../components/sass/_base.scss */
 p {
   font-size: 1.3em;
   line-height: 1.5em;
-  color: #3e2b3d;
+  color: #3E2B3D;
   margin-bottom: 20px;
   margin-top: 15px;
 }
@@ -173,8 +173,8 @@ section {
 
 /* line 15, ../components/sass/_modules.scss */
 .featuredartists {
-  background: #8d8862;
-  border-top: 20px solid #e3c691;
+  background: #8D8862;
+  border-top: 20px solid #E3C691;
   border-bottom: 50px solid #507356;
 }
 /* line 20, ../components/sass/_modules.scss */
@@ -229,10 +229,8 @@ section {
   max-width: 130px;
   margin: 0 auto;
   display: block;
-  -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
+  -webkit-border-radius: 50%;
   border-radius: 50%;
   width: 100%;
 }
@@ -248,7 +246,7 @@ section {
   -moz-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
-  border-bottom: 50px solid #8d8862;
+  border-bottom: 50px solid #8D8862;
 }
 @media (min-width: 801px) {
   /* line 70, ../components/sass/_modules.scss */
@@ -285,7 +283,7 @@ section {
   -moz-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
-  border-bottom: 50px solid #8d8862;
+  border-bottom: 50px solid #8D8862;
 }
 @media (min-width: 801px) {
   /* line 81, ../components/sass/_modules.scss */
@@ -316,8 +314,8 @@ section {
 /* line 94, ../components/sass/_modules.scss */
 .ontour h2 {
   font-size: 1.8em;
-  color: #8d8862;
-  border-top: 1px solid #8d8862;
+  color: #8D8862;
+  border-top: 1px solid #8D8862;
   padding-top: 5px;
 }
 /* line 101, ../components/sass/_modules.scss */
@@ -329,10 +327,8 @@ section {
 /* line 107, ../components/sass/_modules.scss */
 .ontour img {
   float: right;
-  -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
+  -webkit-border-radius: 50%;
   border-radius: 50%;
   padding-left: 20px;
   width: 20%;
@@ -344,10 +340,8 @@ section {
 .pixgrid img {
   max-width: 90px;
   display: block;
-  -webkit-border-radius: 15px;
   -moz-border-radius: 15px;
-  -ms-border-radius: 15px;
-  -o-border-radius: 15px;
+  -webkit-border-radius: 15px;
   border-radius: 15px;
   padding: 0 5px 5px 0;
   cursor: url(../images/misc/magnifying_glass.png), auto;
@@ -364,10 +358,8 @@ section {
 }
 /* line 7, ../components/sass/_rclick.scss */
 .rclick .item img {
-  -webkit-border-radius: none;
   -moz-border-radius: none;
-  -ms-border-radius: none;
-  -o-border-radius: none;
+  -webkit-border-radius: none;
   border-radius: none;
 }
 /* line 12, ../components/sass/_rclick.scss */
@@ -382,12 +374,10 @@ section {
   display: block;
   border: 1px solid #FCF4DC;
   margin: 0;
-  -webkit-border-radius: none;
   -moz-border-radius: none;
-  -ms-border-radius: none;
-  -o-border-radius: none;
+  -webkit-border-radius: none;
   border-radius: none;
-  -webkit-box-shadow: black 5px 5px 12px;
   -moz-box-shadow: black 5px 5px 12px;
+  -webkit-box-shadow: black 5px 5px 12px;
   box-shadow: black 5px 5px 12px;
 }
