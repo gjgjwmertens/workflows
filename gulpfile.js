@@ -8,6 +8,8 @@ var gulp = require('gulp'),
    uglify = require('gulp-uglify'),
    minifyHTML = require('gulp-minify-html'),
    jsonminify = require('gulp-jsonminify'),
+   imagemin = require('gulp-imagemin'),
+   pngcrush = require('imagemin-pngcrush'),
    concat = require('gulp-concat');
 
 var env,
@@ -80,6 +82,17 @@ gulp.task('connect', function () {
    });
 });
 
+gulp.task('images', function () {
+   gulp.src('builds/development/images/**/*.*')
+      .pipe(gulpif(env === 'production', imagemin({
+        progressive: true,
+        svgoPlugins: [{removeViewBox: false}],
+        use: [pngcrush()]
+      })))
+      .pipe(gulpif(env === 'production', gulp.dest(outputDir + 'images')))
+      .pipe(connect.reload())
+});
+
 gulp.task('watch', function () {
    gulp.watch(coffeeSources, ['coffee']);
    gulp.watch(jsSources, ['js']);
@@ -110,7 +123,7 @@ gulp.task('init', function () {
    console.log(env);
 });
 
-gulp.task('build', ['prod', 'compile']);
+gulp.task('build', ['prod', 'compile', 'images']);
 gulp.task('compile', ['init', 'html', 'json', 'coffee', 'js', 'compass']);
 gulp.task('default', ['dev', 'compile', 'connect', 'watch']);
 
